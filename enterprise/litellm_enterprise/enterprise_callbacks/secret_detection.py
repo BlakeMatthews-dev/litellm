@@ -415,7 +415,7 @@ _default_detect_secrets_config = {
             "name": "ZendeskSecretKeyDetector",
             "path": _custom_plugins_path + "/zendesk_secret_key.py",
         },
-        {"name": "Base64HighEntropyString", "limit": 4.0},
+        {"name": "Base64HighEntropyString", "limit": 3.0},
         {"name": "HexHighEntropyString", "limit": 3.0},
     ]
 }
